@@ -1,0 +1,121 @@
+header {
+  background-color: #b5b5b5;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 25px;
+  display: flex;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+header h1 {
+  display: inline-block;
+  font-size: 45px;
+  font-family: monospace;
+}
+header ul li {
+  display: flex;
+  justify-content: space-around;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+section {
+  height: 400px;
+  width: 100%;
+  background-image: url(img/fort12.png);
+  background-repeat: no-repeat;
+  background-size: 700px 400px;
+  display: flex;
+  justify-content: space-between;
+}
+section .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section h1 {
+  display: flex;
+  display: inline-block;
+  font-family: fantasy;
+  color: orange;
+}
+section hr {
+  color: black;
+}
+.container2 {
+  display: flex;
+  text-align: center;
+  margin: 10px;
+}
+.container2:hover {
+  background-color: rgba(123, 122, 119, 0.9);
+}
+section .container3 {
+  height: 30px;
+  width: 100vw;
+  display: flex;
+}
+.container3 img {
+  height: 25px;
+  padding-left: 50%;
+}
+.container3 img:hover {
+  height: 35px;
+}
+.containerSub {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 90px;
+  background-color: #b5b5b5;
+  margin-top: 50px;
+}
+.containerSub h2 {
+  display: flex;
+  margin-left: 15px;
+}
+.container4 {
+  display: flex;
+  height: 500px;
+  width: 100vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container4 .cards {
+  height: 310px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+  border: solid 1px black;
+  border-radius: 15%;
+  background-color: darkgrey;
+}
+.container4 iframe {
+  display: flex;
+  height: 160px;
+  width: 280px;
+  justify-content: space-around;
+  margin: 10px;
+}
+.container4 p {
+  margin: 10px;
+  text-align: center;
+}
+footer {
+  display: flex;
+  width: 100vw;
+  height: 50px;
+  background-color: dimgray;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+footer h6 {
+  display: flex;
+  text-align: center;
+}
